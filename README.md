@@ -1,5 +1,9 @@
 # Deploiement
 
+Le lien de video simulation de AssignmentApp sur Youtube est:
+
+https://www.youtube.com/watch?v=F2UywsALq2I
+
 Le projet est déployé sur Heroku sur cette adresse :
 
 http://belcaid-baazzi-app.herokuapp.com/home
