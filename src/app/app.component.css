@@ -1,3 +1,4 @@
+
 section {
   display: table;
 }
@@ -29,3 +30,16 @@ section {
   justify-content: center;
   width: 120px;
 }
+
+.img-medium{
+  width: 9rem;
+  height: auto;
+  margin: 0rem;
+}
+
+.img-banner{
+  position:absolute;
+  width: 20%;
+}
+
+

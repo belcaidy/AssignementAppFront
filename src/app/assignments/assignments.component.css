@@ -1,5 +1,5 @@
 .container {
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
@@ -8,11 +8,15 @@
 }
 
 .paginationBtn {
-  align-self: flex-start;
+  align-self:center;
 }
 
 .demo-table {
   width: 50%;
+}
+
+.mat-card {
+  background: rgb(255, 255, 255);
 }
 
 .mat-column-demo-id {
@@ -36,4 +40,14 @@
   width: 32px;
   text-align: center;
   font-weight: bold;
+}
+
+
+
+
+.card2{
+  padding: 1rem;
+  background: #07304233;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }

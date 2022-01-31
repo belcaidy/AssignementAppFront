@@ -1,5 +1,8 @@
-<h2>Ajout d'un nouvel assignment</h2>
-<form ngForm #assignmentForm class="form" (submit)="onSubmit(); assignmentForm.reset()">
+<div class="card2">
+
+<mat-card-subtitle align="center"><h2>Ajout d'un nouvel assignment</h2></mat-card-subtitle>
+<mat-card>
+  <form ngForm #assignmentForm class="form" (submit)="onSubmit(); assignmentForm.reset()">
   <mat-form-field>
     <input matInput placeholder="Nom de l'assignment"
            [(ngModel)]="nomAssignment" name="nom" placeHolder="Nom">
@@ -16,4 +19,7 @@
   <button mat-stroked-button color="primary">
     Ajouter un devoir
   </button>
+
 </form>
+</mat-card>
+</div>

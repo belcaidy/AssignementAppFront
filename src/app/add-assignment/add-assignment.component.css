@@ -3,3 +3,12 @@
   flex-direction: column;
   margin:5px;
 }
+
+
+
+.card2{
+  padding: 1rem;
+  background: #07304233;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}

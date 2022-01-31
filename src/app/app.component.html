@@ -1,13 +1,42 @@
-<nav>
-  <a routerLink="/home">
-    <h1>{{titre}}</h1>
-  </a>
-</nav>
+<div
+  class="display-flex"
+  style="justify-content: space-between; align-items: flex-start"
+>
+  <img src="assets/img/unice.png" class="img-banner" />
+
+  <div style="text-align: center; width: 100%">
+    <h2 style="color: #1dbfe7">MASTER MIAGE INTENSE</h2>
+    <h4 style="color: #040d0f">Michelle BUFFA</h4>
+    <hr />
+    <div style="display: flex; justify-content: space-around">
+      <div>BELCAID Youssef</div>
+      <div>BAAZZI Oussama</div>
+    </div>
+    <hr />
+    <a routerLink="/home" class="display-flex center text-bold">
+      <div>
+        <img src="assets/img/assi.jpg" class="img-medium" />
+        <h2 style="color: #007ea1">{{ titre }}</h2>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+
 <mat-slide-toggle color="primary" (click)="onLogin()">Login</mat-slide-toggle>
-<br>
-<button mat-flat-button color="primary" (click)="initialiserLaBaseAvecDonneesDeTest()">PeuplerBD</button>
+
+<button style="left:20px;"
+  mat-flat-button
+  color="primary"
+  (click)="initialiserLaBaseAvecDonneesDeTest()"
+>
+  PeuplerBD
+</button>
 <!--
   La ligne suivante dit "on affiche le composant qui correspond à l'URL courant"
   (à la route courante)
 -->
+
+
 <router-outlet></router-outlet>
