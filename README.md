@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Deploiement
+
+Le projet est déployé sur Heroku sur cette adresse :
+
+http://belcaid-baazzi-app.herokuapp.com/home
+
+& api sur :
+
+https://api-cours-angular2022.herokuapp.com/api/assignments 
+
+Notre projet est public sur GitHub, il est accessible depuis ce lien:
+
+Front end :
+
+https://github.com/belcaidy/AssignementAppFront
+
+Back end :
+
+https://github.com/belcaidy/api_assignements
